@@ -6,7 +6,11 @@ const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
     user: "rbakri9@gmail.com",
+<<<<<<< Updated upstream
     pass: "App Password",
+=======
+    pass: "App password",
+>>>>>>> Stashed changes
   },
 });
 
